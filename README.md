@@ -18,4 +18,6 @@ One special thread created for always sending connection signal to the main_serv
  you can use some 10 threads infinite time .
  
  
- 
+For Executing this code you should have "pthread" library 
+
+
