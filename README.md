@@ -20,4 +20,16 @@ One special thread created for always sending connection signal to the main_serv
  
 For Executing this code you should have "pthread" library 
 
+First go in the intermediate server
+
+and do make 
+and make will create binary file "intermediate_server" and after that run your main_server and client
+
+for runnning main_server:
+
+    gcc -o main_server main_server.c -lpthread
+    
+ for running client : 
+ 
+    gcc -o client client.c -lpthread
 
