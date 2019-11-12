@@ -22,6 +22,11 @@ For Executing this code you should have "pthread" library
 
 First go in the intermediate server
 
+BEFORE RUNNING ALL PROGRAMS , WRITE YOUR SERVER IP  in client.c program where i mentioned
+and in config.ini file 
+
+
+
 and do make 
 and make will create binary file "intermediate_server" and after that run your main_server and client
 
