@@ -174,7 +174,7 @@ int main ()
         bzero((char *) &serv_addr, sizeof(serv_addr));
         serv_addr.sin_family = AF_INET;
         serv_addr.sin_addr.s_addr = INADDR_ANY;
-        serv_addr.sin_port = htons(8864);
+        serv_addr.sin_port = htons(2225);
 
         int turniton = 1;
         if ( setsockopt(server_sock, SOL_SOCKET, SO_REUSEADDR, &turniton, sizeof(turniton)) < 0 )
