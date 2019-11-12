@@ -40,8 +40,8 @@ void* func(void *args)
 		bzero((char *)&server, sizeof(server)); 
 
 		server.sin_family = AF_INET;
-		server.sin_addr.s_addr=inet_addr("192.168.2.197");
-		server.sin_port=htons(8801);
+		server.sin_addr.s_addr=inet_addr("");// GIVE YOUR SERVER IP ADDRESS
+		server.sin_port=htons(2225);
 
 
 				
