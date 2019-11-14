@@ -4,7 +4,7 @@
 #include "write_log.c"
 
 #define EVENT_CACHE                     "client_data.cache"
-#define PID_FILE			"/var/log/intermediate_server.pid"
+#define PID_FILE			"/var/run/intermediate_server.pid"
 
 #define MAXBUFF 2048
 #define MINBUFF 256
