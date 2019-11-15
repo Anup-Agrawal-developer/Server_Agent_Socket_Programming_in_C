@@ -22,8 +22,8 @@ For Executing this code you should have "pthread" library
 
 First go in the intermediate server
 
-BEFORE RUNNING ALL PROGRAMS , WRITE YOUR SERVER IP  in client.c program where i mentioned
-and in config.ini file 
+BEFORE RUNNING ALL PROGRAMS , WRITE YOUR SERVER IP  in client.c program for intermediate_server.where i mentioned
+and in config.ini file for main_server's IP.
 
 
 
