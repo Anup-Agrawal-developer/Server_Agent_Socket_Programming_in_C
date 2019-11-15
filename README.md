@@ -9,7 +9,7 @@ Client_data.cache. Simultaneously, trying to connecting to main_server, whenever
 One special thread created for always sending connection signal to the main_server. 
     
     
- Threadpool is just a concept which is used to creating infinite threads. This concept having a simple logic , if you understand 
+ Threadpool is just a concept which is used to reusing free threads. This concept having a simple logic , if you understand 
  this concept properly. 
  How it works?
  Whenever, you create thread for executing your operation. What we do, we create thread,use that thread and exit from that thread.
